@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleExecutable</key>
-    <string>SideScrollConverter</string>
+    <string>MXVerticalScroller</string>
     <key>CFBundleIdentifier</key>
-    <string>com.peter.sidescrollconverter</string>
+    <string>com.peter.mxverticalscroller</string>
     <key>CFBundleName</key>
-    <string>SideScrollConverter</string>
+    <string>MXVerticalScroller</string>
     <key>CFBundleDisplayName</key>
-    <string>SideScroll Converter</string>
+    <string>MX Vertical Scroller</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleVersion</key>
@@ -20,15 +20,12 @@
     <string>NSApplication</string>
     <key>CFBundleIconFile</key>
     <string>AppIcon</string>
-    <!-- LSUIElement hides the app from the Dock and App Switcher -->
     <key>LSUIElement</key>
     <true/>
     <key>NSHighResolutionCapable</key>
     <true/>
-    <!-- Accessibility usage description shown in System Settings -->
     <key>NSAccessibilityUsageDescription</key>
-    <string>SideScroll Converter needs Accessibility access to intercept and redirect side scroll wheel events to vertical scrolling.</string>
-    <!-- Required for Launch at Login via SMAppService -->
+    <string>MX Vertical Scroller needs Accessibility access to intercept and redirect side scroll wheel events to vertical scrolling.</string>
     <key>SMPrivilegedExecutables</key>
     <dict/>
 </dict>

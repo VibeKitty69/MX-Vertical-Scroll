@@ -2,8 +2,8 @@
 # Installs by replacing only the binary — preserves macOS Accessibility permission
 set -e
 
-APP_NAME="SideScrollConverter"
-APP_BUNDLE="$APP_NAME.app"
+APP_NAME="MXVerticalScroller"
+APP_BUNDLE="MX Vertical Scroller.app"
 INSTALL_PATH="/Applications/$APP_BUNDLE"
 
 if [ ! -f "$APP_BUNDLE/Contents/MacOS/$APP_NAME" ]; then

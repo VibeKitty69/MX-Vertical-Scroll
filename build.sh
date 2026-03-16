@@ -1,11 +1,12 @@
 #!/bin/bash
 set -e
 
-APP_NAME="SideScrollConverter"
+APP_NAME="MXVerticalScroller"
+DISPLAY_NAME="MX Vertical Scroller"
 BINARY="$APP_NAME"
-APP_BUNDLE="$APP_NAME.app"
+APP_BUNDLE="$DISPLAY_NAME.app"
 
-echo "Building $APP_NAME..."
+echo "Building $DISPLAY_NAME..."
 
 # Generate app icon
 echo "Generating icon..."
@@ -55,8 +56,8 @@ echo ""
 echo "✓ Built: $APP_BUNDLE"
 echo ""
 echo "Next steps:"
-echo "  1. Move it to Applications:  mv $APP_BUNDLE /Applications/"
-echo "  2. Launch it:                open /Applications/$APP_BUNDLE"
+echo "  1. Move it to Applications:  mv \"$APP_BUNDLE\" /Applications/"
+echo "  2. Launch it:                open \"/Applications/$APP_BUNDLE\""
 echo "  3. Grant Accessibility access when prompted"
 echo ""
 echo "Or just run it from here:    open $APP_BUNDLE"
